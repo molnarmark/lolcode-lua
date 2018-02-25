@@ -1,5 +1,6 @@
 <meta>
   <script src="utils.lua" type="client"/>
-  <script src="lex.lua" type="client"/>
+  <script src="lexer.lua" type="client"/>
+  <script src="parser.lua" type="client"/>
   <script src="interpreter.lua" type="client"/>
 </meta>

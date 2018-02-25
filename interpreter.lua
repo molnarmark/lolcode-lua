@@ -33,7 +33,8 @@ types = {
 
 local function main(code)
 	local tokens = lex(code)
-	outputChatBox(inspect(tokens))
+	outputDebugString(inspect(tokens))
+	parse(tokens)
 end
 
 local exampleCode = [[
